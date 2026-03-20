@@ -1,0 +1,33 @@
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Streamlit local secrets/config
+.streamlit/secrets.toml
+
+# Editor/OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
