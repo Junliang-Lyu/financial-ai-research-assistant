@@ -21,7 +21,7 @@ The app produces a structured analyst-style output:
 
 This project demonstrates practical AI workflow design for investment research: turning noisy financial inputs into concise, decision-oriented outputs.
 
-It is built as a portfolio project for AI analyst and research-oriented internship roles, with emphasis on usability, structure, and graceful failure handling.
+It is built as a portfolio project for AI analyst, AI application, fintech, and research-oriented software roles, with emphasis on usability, structured output, and graceful failure handling.
 
 ## 3) Features
 
@@ -108,22 +108,22 @@ streamlit run app.py
 - Single-name check: Enter `AAPL`, `MSFT`, `NVDA`, or `TSLA` to combine recent pricing context with analyst-style output
 - Internal handoff: Export output as a short research memo for team discussion
 
-## 9) Current Limitations
+## 9) Portfolio Highlights
+
+- Demonstrates an end-to-end AI application flow: user input, data retrieval, LLM analysis, structured parsing, and memo export.
+- Shows fintech-oriented product thinking through risk/watch-item framing and investor-style output sections.
+- Handles missing market data explicitly instead of failing silently, which is important for external API reliability.
+
+## 10) Current Limitations
 
 - This is a demo, not a production research platform
 - Data quality depends on third-party providers (`yfinance`) and API availability
 - LLM outputs are structured and constrained, but still probabilistic
 - No persistent storage, authentication, audit trail, or portfolio-level analytics
 
-## 10) Future Improvements
+## 11) Future Improvements
 
 - Add source linking or citation snippets for analyzed news
 - Add scenario comparison (base, bull, bear) and confidence scoring
 - Add simple watchlist support and memo history
 - Add lightweight test coverage for service-level reliability
-
-## 11) Screenshots
-
-- `[Placeholder]` Ticker mode with market snapshot and analyst output
-- `[Placeholder]` News text mode with structured investment analysis
-- `[Placeholder]` Exported research memo preview
